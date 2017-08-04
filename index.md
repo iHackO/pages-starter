@@ -14,20 +14,20 @@ website.
 3. Edit the `_config.yml` file
 
 {% highlight yaml %}
-title: {{ site.title }}
+title: {{ iHackO }}
 description: >
   {{ site.description | rstrip }}
 baseurl: "{{ site.baseurl }}" # the subpath of your site
-url: "{{ site.url }}"
+url: "{{ iHackO.github.io }}"
 email: {{ site.email }}
-github_username:  {{ site.github_username }}
+github_username:  {{ iHackO }}
 linkedin_username: {{ site.linkedin_username }}
 twitter_username: {{ site.twitter_username }}
 {% endhighlight %}
 
 That's it! You should now have a website of your own.
 
-https://`your github username`.github.io/pages-starter/
+https://iHackO.github.io/pages-starter/
 
 There's so much more you can do with GitHub Pages, so don't stop here.
 Explore the code in this project and start making it your own.
